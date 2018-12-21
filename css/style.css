@@ -1,0 +1,305 @@
+/*<!-- Google Fonts  -->*/
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
+/*<!-- Reset  -->*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+/* HEADER */
+header {
+    background-color: #fff;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(270deg, #31A5E7 0%, #31A5E3 50%, #31A5E7 100%);
+    -webkit-font-smoothing: antialiased;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height: 60px;
+    width: 100%;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: #2e93c9;
+}
+
+nav a img {
+    max-height: 20px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+header hr {
+    border: solid 0.5px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    line-height: 30px;
+}
+
+form button {
+    font-size: 1.1em;
+    color: white;
+    line-height: 38px;
+    width: 38px;
+    background-color: #31A5E7;
+    border: #31A5E7 2px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/Blue-Spot-Lights-Wallpaper1.jpg);
+    background-size: cover;
+    padding: 2em;
+    color: #fff;
+}
+
+.row {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: right;
+    font-weight: 500;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+.content {
+    margin-top: 1em;
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .slider1 {
+    width: 300px;
+    height: 100px;
+    padding: 20px 5px;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*
+@keyframes slider1 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: -294px;
+        top: 0px;
+    }
+    50% {
+        left: -600px;
+        top: 0px;
+    }
+    75% {
+        left: -900px;
+        top: 0px;
+    }
+    100% {
+        left: -900px;
+        top: 0px;
+    }
+}
+*/
+
+.active {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slider1 img {
+    width: 100px;
+    margin: 8px;
+    display: inline;
+}
+
+.content .texte {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.num {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 85%;
+    padding-left: 20px;
+    margin-top: -28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.num a {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 1px white;
+    color: rgba(255, 255, 255, 0);
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.num a:hover {
+    transform: scale(1.1);
+}
+
+.texte a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dotted white;
+}
+
+.texte a:hover {
+    text-decoration: underline;
+    font-size: 1.05em;
+}
+
+main hr {
+    color: #fff;
+    width: 100%;
+}
+
+/* ASIDE */
+
+aside {
+    height: 210px;
+}
+
+aside .slider2 {
+/*    width: 840px;*/
+    width: 99%;
+    height: 150px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+
+}
+
+aside .wrap {
+    /*display: inline !important;*/
+    width: 4000px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /*    background-color: rgba(0,0,0,0.4);*/
+}
+
+@keyframes slider2 {
+    0% {left: 0px;top: 0px;}
+    7% {left: -160px;top: 0px;}
+    14% {left: -340px;top: 0px;}
+    21% {left: -510px;top: 0px;}
+    28% {left: -680px;top: 0px;}
+    35% {left: -840px;top: 0px;}
+    42% {left: -1020px;top: 0px;}
+    50% {left: -1180px; top: 0px;}
+    57% {left: -1340px;top: 0px;}
+    65% {left: -1520px;top: 0px;}
+    72% {left: -1700px;top: 0px;}
+    79% {left: -1850px;top: 0px;}
+    86% {left: -2050px;top: 0px;}
+    93% {left: -2200px;top: 0px;}
+    100% {left: -2370px;top: 0px;}
+}
+
+.slider2 img {
+    /*    flex-basis: 150px;*/
+    width: 150px;
+    height: 100px;
+    position: relative;
+    margin: 10px;
+    animation-name: slider2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.background {
+    height: 20px;
+    background-image: url(../img/trait-vertical-bleu%20-%20long.png);
+    background-repeat: repeat-x;
+
+}
+
+/* FOOTER  */
+
+footer {
+    font-size: 0.8em;
+    height: 4.5em;
+    line-height: 4.5em;
+    background-color: #008CBA;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    font-size: 1.1em;
+}
