@@ -1,0 +1,99 @@
+    nav {
+        position: relative;
+        height: 300px;
+        display: block;
+    }
+
+    nav a {
+        height: 40px;
+        line-height: 40px;
+        padding: 5px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .infos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infos hr {
+        display: none;
+    }
+
+    .infos img {  
+        margin-bottom: 10px;
+    }
+
+    .infos form {
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;   
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .num {
+        display: none;
+    }
+    
+    .content .slider1 {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider1 img {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+    }
+
+    .content .texte {
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3,
+    h1 {
+        text-align: center;
+        margin: 10px;
+    }
+
+
+    aside .slider2 {
+        width: 95%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    aside {
+        height: 180px;
+    }
